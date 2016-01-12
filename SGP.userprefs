@@ -1,0 +1,17 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/NewBehaviourScript.cs">
+    <Files>
+      <File FileName="Assets/Scripts/Swop.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Jump.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/easyMovement.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/gMove.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Scan.cs" Line="4" Column="18" />
+      <File FileName="Assets/Scripts/NewBehaviourScript.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

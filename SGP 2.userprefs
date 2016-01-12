@@ -1,0 +1,24 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\CamSwitcher.cs">
+    <Files>
+      <File FileName="Assets\Scripts\CamSwitcher.cs" Line="57" Column="1" />
+      <File FileName="Assets\Scripts\Animation Script\elevator_1.cs" Line="10" Column="13" />
+      <File FileName="Assets\Scripts\BluePrintPICKUP.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\buttonTrigger.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\BluePrint.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\buttonTrigger2.cs" Line="8" Column="27" />
+      <File FileName="Assets\Scripts\spgMOVE.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\gMove.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\mouseShoot.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\newCamSwitch.cs" Line="49" Column="68" />
+      <File FileName="Assets\Scripts\ScoreManager.cs" Line="13" Column="12" />
+      <File FileName="Assets\Scripts\Swop.cs" Line="42" Column="68" />
+      <File FileName="Assets\Scripts\buttonTrigger3.cs" Line="6" Column="12" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

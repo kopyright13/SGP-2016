@@ -1,0 +1,245 @@
+fileFormatVersion: 2
+guid: 99327041e83cb2b4094fbf2d25df0172
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: combo_0
+    21300002: combo_1
+    21300004: combo_2
+    21300006: combo_3
+    21300008: combo_4
+    21300010: combo_5
+    21300012: combo_6
+    21300014: combo_7
+    21300016: combo_8
+    21300018: combo_9
+    21300020: combo_10
+    21300022: combo_11
+    21300024: combo_12
+    21300026: combo_13
+    21300028: combo_14
+    21300030: combo_15
+    21300032: combo_16
+    21300034: combo_17
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: combo_0
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 838
+        width: 143
+        height: 126
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: combo_1
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 1005
+        width: 97
+        height: 108
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: combo_2
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 492
+        width: 341
+        height: 608
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 26, w: 0}
+    - name: combo_3
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 177
+        width: 167
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: combo_4
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 168
+        width: 185
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: combo_5
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 215
+        width: 168
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: combo_6
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 220
+        width: 169
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: combo_7
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 117
+        width: 63
+        height: 71
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: combo_8
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 188
+        width: 151
+        height: 159
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: combo_9
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 995
+        width: 167
+        height: 133
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: combo_10
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 771
+        width: 84
+        height: 162
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: combo_11
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 611
+        width: 99
+        height: 137
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: combo_12
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 737
+        width: 130
+        height: 92
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: combo_13
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 54
+        width: 198
+        height: 99
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: combo_14
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 108
+        width: 63
+        height: 74
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: combo_15
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 117
+        width: 72
+        height: 65
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: combo_16
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 501
+        width: 299
+        height: 533
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: combo_17
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 467
+        width: 23
+        height: 232
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

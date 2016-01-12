@@ -1,0 +1,16 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../SGP-PreProto 2 3/Assets/Scripts/Level12/trigger_8.cs">
+    <Files>
+      <File FileName="../../SGP-PreProto 2 3/Assets/Scripts/Animation Script/elevator_1.cs" Line="9" Column="12" />
+      <File FileName="../../SGP-PreProto 2 3/Assets/Scripts/Level12/trigger_6.cs" Line="33" Column="51" />
+      <File FileName="../../SGP-PreProto 2 3/Assets/Scripts/Level12/trigger_2.cs" Line="34" Column="51" />
+      <File FileName="../../SGP-PreProto 2 3/Assets/Old scene/dialogue4.cs" Line="1" Column="1" />
+      <File FileName="../../SGP-PreProto 2 3/Assets/Scripts/Level12/trigger_8.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

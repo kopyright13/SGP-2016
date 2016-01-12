@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{9F0237B3-7CC0-953E-4875-093FFB8FD2BC}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_5_1_1;UNITY_5_1;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PHYSICS_PHYSX3;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_LICENSE;ENABLE_AUDIOMIXER_SUSPEND;ENABLE_EDITOR_METRICS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\BossStage1\boss_trigger.cs" />
+     <Compile Include="Assets\BossStage1\boss_trigger2.cs" />
+     <Compile Include="Assets\BossStage1\hit.cs" />
+     <Compile Include="Assets\CHaracters\gAnimation.cs" />
+     <Compile Include="Assets\CHaracters\pAnimation.cs" />
+     <Compile Include="Assets\CHaracters\senetAnimation.cs" />
+     <Compile Include="Assets\CHaracters\sgpAnimation.cs" />
+     <Compile Include="Assets\LevelsMenu\LevelMenu.cs" />
+     <Compile Include="Assets\Old scene\dialogue.cs" />
+     <Compile Include="Assets\Old scene\dialogue2.cs" />
+     <Compile Include="Assets\Old scene\dialogue4.cs" />
+     <Compile Include="Assets\Scripts\Animation Script\elevatorAnim.cs" />
+     <Compile Include="Assets\Scripts\Animation Script\elevatorAnim2.cs" />
+     <Compile Include="Assets\Scripts\Animation Script\elevatorAnim3.cs" />
+     <Compile Include="Assets\Scripts\Animation Script\elevatorAnim4.cs" />
+     <Compile Include="Assets\Scripts\Animation Script\elevator_1.cs" />
+     <Compile Include="Assets\Scripts\Animation Script\elevator_1_Down.cs" />
+     <Compile Include="Assets\Scripts\Animation Script\elevator_1_Up.cs" />
+     <Compile Include="Assets\Scripts\Animation Script\elevator_2_Down.cs" />
+     <Compile Include="Assets\Scripts\Animation Script\elevator_2_Up.cs" />
+     <Compile Include="Assets\Scripts\BluePrint.cs" />
+     <Compile Include="Assets\Scripts\BluePrintPICKUP.cs" />
+     <Compile Include="Assets\Scripts\BombScript.cs" />
+     <Compile Include="Assets\Scripts\Boss1\boss1.cs" />
+     <Compile Include="Assets\Scripts\Boss1\boss2.cs" />
+     <Compile Include="Assets\Scripts\Boss1\boss3.cs" />
+     <Compile Include="Assets\Scripts\Boss1\boss4.cs" />
+     <Compile Include="Assets\Scripts\Boss1\bossAnim.cs" />
+     <Compile Include="Assets\Scripts\Boss1\combineCheck.cs" />
+     <Compile Include="Assets\Scripts\Boxattraction.cs" />
+     <Compile Include="Assets\Scripts\Boxmag.cs" />
+     <Compile Include="Assets\Scripts\CamSwitcher.cs" />
+     <Compile Include="Assets\Scripts\Elevator script\Elevator_trigger.cs" />
+     <Compile Include="Assets\Scripts\Elevator script\Elevator_trigger2.cs" />
+     <Compile Include="Assets\Scripts\HealthScript.cs" />
+     <Compile Include="Assets\Scripts\Jump.cs" />
+     <Compile Include="Assets\Scripts\LastFrameCheck.cs" />
+     <Compile Include="Assets\Scripts\Level12\Button1.cs" />
+     <Compile Include="Assets\Scripts\Level12\Button10.cs" />
+     <Compile Include="Assets\Scripts\Level12\Button2.cs" />
+     <Compile Include="Assets\Scripts\Level12\Button3.cs" />
+     <Compile Include="Assets\Scripts\Level12\Button4.cs" />
+     <Compile Include="Assets\Scripts\Level12\Button5.cs" />
+     <Compile Include="Assets\Scripts\Level12\Button6.cs" />
+     <Compile Include="Assets\Scripts\Level12\Button7.cs" />
+     <Compile Include="Assets\Scripts\Level12\Button8.cs" />
+     <Compile Include="Assets\Scripts\Level12\ButtonTriggerFinal.cs" />
+     <Compile Include="Assets\Scripts\Level12\Buttont1.cs" />
+     <Compile Include="Assets\Scripts\Level12\Buttont2.cs" />
+     <Compile Include="Assets\Scripts\Level12\Buttont3.cs" />
+     <Compile Include="Assets\Scripts\Level12\Buttont4.cs" />
+     <Compile Include="Assets\Scripts\Level12\Buttont5.cs" />
+     <Compile Include="Assets\Scripts\Level12\Buttont6.cs" />
+     <Compile Include="Assets\Scripts\Level12\Buttont7.cs" />
+     <Compile Include="Assets\Scripts\Level12\Buttont8.cs" />
+     <Compile Include="Assets\Scripts\Level12\Buttont9.cs" />
+     <Compile Include="Assets\Scripts\Level12\TurretDestroy.cs" />
+     <Compile Include="Assets\Scripts\Level12\TurretDestroy1.cs" />
+     <Compile Include="Assets\Scripts\Level12\buttonDestroy.cs" />
+     <Compile Include="Assets\Scripts\Level12\buttonExit.cs" />
+     <Compile Include="Assets\Scripts\Level12\buttonExit2.cs" />
+     <Compile Include="Assets\Scripts\Level12\firstTrigger.cs" />
+     <Compile Include="Assets\Scripts\Level12\gapTrigger.cs" />
+     <Compile Include="Assets\Scripts\Level12\trigger_10.cs" />
+     <Compile Include="Assets\Scripts\Level12\trigger_2.cs" />
+     <Compile Include="Assets\Scripts\Level12\trigger_3.cs" />
+     <Compile Include="Assets\Scripts\Level12\trigger_6.cs" />
+     <Compile Include="Assets\Scripts\Level12\trigger_7.cs" />
+     <Compile Include="Assets\Scripts\Level12\trigger_8.cs" />
+     <Compile Include="Assets\Scripts\Level12\trigger_9.cs" />
+     <Compile Include="Assets\Scripts\Level2\NewBehaviourScript.cs" />
+     <Compile Include="Assets\Scripts\Level2\NewBehaviourScript1.cs" />
+     <Compile Include="Assets\Scripts\Level2\PHys.cs" />
+     <Compile Include="Assets\Scripts\Level2\mag1.cs" />
+     <Compile Include="Assets\Scripts\Level2\mag1A.cs" />
+     <Compile Include="Assets\Scripts\Level2\mag2.cs" />
+     <Compile Include="Assets\Scripts\Level2\mag2A.cs" />
+     <Compile Include="Assets\Scripts\Level2\mag3.cs" />
+     <Compile Include="Assets\Scripts\Level2\mag3A.cs" />
+     <Compile Include="Assets\Scripts\Level2\mag4.cs" />
+     <Compile Include="Assets\Scripts\Level2\mag4A.cs" />
+     <Compile Include="Assets\Scripts\Level2\magnetMove.cs" />
+     <Compile Include="Assets\Scripts\Level2\moveWall1.cs" />
+     <Compile Include="Assets\Scripts\Level2\moveWall2.cs" />
+     <Compile Include="Assets\Scripts\Level2\moveWall3.cs" />
+     <Compile Include="Assets\Scripts\Level2\phaseD.cs" />
+     <Compile Include="Assets\Scripts\Level2\pushBlow.cs" />
+     <Compile Include="Assets\Scripts\Level2\wall1.cs" />
+     <Compile Include="Assets\Scripts\Level2\wall2.cs" />
+     <Compile Include="Assets\Scripts\MainCamera.cs" />
+     <Compile Include="Assets\Scripts\MoveScript.cs" />
+     <Compile Include="Assets\Scripts\Movement.cs" />
+     <Compile Include="Assets\Scripts\PauseScript.cs" />
+     <Compile Include="Assets\Scripts\Player Script\endLevel.cs" />
+     <Compile Include="Assets\Scripts\Player Script\playerOutOfBounds.cs" />
+     <Compile Include="Assets\Scripts\Player Script\setCheckpoint.cs" />
+     <Compile Include="Assets\Scripts\PlayerScript.cs" />
+     <Compile Include="Assets\Scripts\Scan.cs" />
+     <Compile Include="Assets\Scripts\ScoreManager.cs" />
+     <Compile Include="Assets\Scripts\SelectedChar.cs" />
+     <Compile Include="Assets\Scripts\SelectedChar2.cs" />
+     <Compile Include="Assets\Scripts\Swop.cs" />
+     <Compile Include="Assets\Scripts\Swop2.cs" />
+     <Compile Include="Assets\Scripts\Swop3.cs" />
+     <Compile Include="Assets\Scripts\Swop4.cs" />
+     <Compile Include="Assets\Scripts\Turret\BulletDamage.cs" />
+     <Compile Include="Assets\Scripts\Turret\BulletFire.cs" />
+     <Compile Include="Assets\Scripts\Turret\DefaultVelocity.cs" />
+     <Compile Include="Assets\Scripts\Turret\EnemyAttack.cs" />
+     <Compile Include="Assets\Scripts\Turret\EnemyAttack2.cs" />
+     <Compile Include="Assets\Scripts\Turret\Health.cs" />
+     <Compile Include="Assets\Scripts\Turret\blockKill.cs" />
+     <Compile Include="Assets\Scripts\Turret\blockKillplayer.cs" />
+     <Compile Include="Assets\Scripts\Turret\checkpoint4.cs" />
+     <Compile Include="Assets\Scripts\Turret\checkpoint5.cs" />
+     <Compile Include="Assets\Scripts\Turret\checkpointCom.cs" />
+     <Compile Include="Assets\Scripts\Turret\checkpointLower.cs" />
+     <Compile Include="Assets\Scripts\Turret\dpsInvis.cs" />
+     <Compile Include="Assets\Scripts\WeaponScript.cs" />
+     <Compile Include="Assets\Scripts\What Im Currently Working On.._\MagnetButtonScript.cs" />
+     <Compile Include="Assets\Scripts\What Im Currently Working On.._\MagnetScript.cs" />
+     <Compile Include="Assets\Scripts\What Im Currently Working On.._\MagnetScript2.cs" />
+     <Compile Include="Assets\Scripts\What Im Currently Working On.._\MagnetScript3.cs" />
+     <Compile Include="Assets\Scripts\What Im Currently Working On.._\MagnetScript4.cs" />
+     <Compile Include="Assets\Scripts\What Im Currently Working On.._\b1.cs" />
+     <Compile Include="Assets\Scripts\What Im Currently Working On.._\b2.cs" />
+     <Compile Include="Assets\Scripts\What Im Currently Working On.._\b3.cs" />
+     <Compile Include="Assets\Scripts\What Im Currently Working On.._\bombMag1.cs" />
+     <Compile Include="Assets\Scripts\What Im Currently Working On.._\bombMag2.cs" />
+     <Compile Include="Assets\Scripts\What Im Currently Working On.._\bombMag3.cs" />
+     <Compile Include="Assets\Scripts\bDestroy.cs" />
+     <Compile Include="Assets\Scripts\bDestroyFINAL.cs" />
+     <Compile Include="Assets\Scripts\bossMove.cs" />
+     <Compile Include="Assets\Scripts\buttonTrigger.cs" />
+     <Compile Include="Assets\Scripts\buttonTrigger2.cs" />
+     <Compile Include="Assets\Scripts\buttonTrigger2A.cs" />
+     <Compile Include="Assets\Scripts\buttonTrigger3.cs" />
+     <Compile Include="Assets\Scripts\buttonTrigger4.cs" />
+     <Compile Include="Assets\Scripts\buttonTriggerLevel1T_Down.cs" />
+     <Compile Include="Assets\Scripts\buttonTriggerLevel1T_Right.cs" />
+     <Compile Include="Assets\Scripts\buttonTriggerPush.cs" />
+     <Compile Include="Assets\Scripts\easyMovement.cs" />
+     <Compile Include="Assets\Scripts\gMove.cs" />
+     <Compile Include="Assets\Scripts\goToLevel1.cs" />
+     <Compile Include="Assets\Scripts\goToLevel1Boss.cs" />
+     <Compile Include="Assets\Scripts\goToLevel2Boss.cs" />
+     <Compile Include="Assets\Scripts\mouseShoot.cs" />
+     <Compile Include="Assets\Scripts\move.cs" />
+     <Compile Include="Assets\Scripts\newCamSwitch.cs" />
+     <Compile Include="Assets\Scripts\newCamSwitch2.cs" />
+     <Compile Include="Assets\Scripts\newCamSwitch4.cs" />
+     <Compile Include="Assets\Scripts\pMove.cs" />
+     <Compile Include="Assets\Scripts\sMove.cs" />
+     <Compile Include="Assets\Scripts\spgMOVE.cs" />
+     <Compile Include="Assets\Scripts\spotLights.cs" />
+     <Compile Include="Assets\StartMenu\MainMenu.cs" />
+     <Compile Include="Assets\Transitions\Floor2\Floor1.cs" />
+     <Compile Include="Assets\Transitions\Level1TransitionScreen\LoadLevel1.cs" />
+     <Compile Include="Assets\Transitions\Level1TransitionScreen\Loadmain.cs" />
+     <Compile Include="Assets\Transitions\Level2TransitionScreen\LoadElevator1.cs" />
+     <Compile Include="Assets\Transitions\Level2TransitionScreen\LoadLevel2.cs" />
+     <Compile Include="Assets\Transitions\TutorialTransitionScreen\LoadTutorial.cs" />
+     <Compile Include="Assets\Trigger_SGP.cs" />
+     <None Include="Assets\Materials\Blocks\Glowshader.shader" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+ <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
